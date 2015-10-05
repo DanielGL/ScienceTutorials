@@ -1,0 +1,32 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!-- Archivo que contiene el menu para alumnos -->
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Menu Principal</title>
+<link rel="stylesheet" type="text/css" href="Estilos.css">
+<link href="SpryAssets/SpryMenuBarHorizontal.css" rel="stylesheet" type="text/css" />
+
+<script src="SpryAssets/SpryMenuBar.js" type="text/javascript"></script>
+
+</head>
+
+<body>
+<ul id="MenuBar1" class="MenuBarHorizontal">
+  <li><a href="Inicio.php">Inicio</a></li>
+  <li><a href="./MaratonA/juegoindividual.php">Juego</a></li>
+<li><a href="ConsultarHistorialAlumno.php">Historial</a></li>
+  <li><a href="#" class="MenuBarItemSubmenu">Configuracion</a>
+    <ul>
+     <li><a href="ModificarAlumno.php">Datos Personales</a></li>
+      <li><a href="CambiaContrasenia.php">Cambiar Contrase&ntilde;a</a></li>
+      <li><a href="logout.php">Cerrar Sesion</a></li>
+    </ul>
+  </li>
+</ul>
+<p>&nbsp; </p>
+<script type="text/javascript">
+var MenuBar1 = new Spry.Widget.MenuBar("MenuBar1", {imgDown:"SpryAssets/SpryMenuBarDownHover.gif", imgRight:"SpryAssets/SpryMenuBarRightHover.gif"});
+</script>
+</body>
+</html>

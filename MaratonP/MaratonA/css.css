@@ -1,0 +1,89 @@
+/* 
+    Document   : css
+    Created on : 31/10/2013, 10:52:03 AM
+    Author     : Ricardo
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+img.alberto
+{
+    position: absolute;
+    right: 90%;
+    top: 174px;
+    width: 92px;
+    height: 165px;
+}
+
+img.cocodrilo
+{
+    position: absolute;
+    right: 90%;
+    top: 334px;
+    width: 137px;
+    height: 143px;
+}
+
+input.pregunta
+{
+    position: absolute;
+    right: 25%;
+    top: 5%;
+}
+
+body.ty
+{
+    background-color: #ccffcc;
+}
+
+p.timer{
+
+    position: absolute;
+    right: 10%;
+    top: 2%;
+    font-size:20px;
+    font-family:Arial,Helvetica,sans-serif;
+}
+
+td
+{
+
+    padding:15px;
+    font-size: 20px;
+    font-family:Arial,Helvetica,sans-serif;
+}
+
+p.final
+{
+    
+    font-size: 20px;
+    font-family:Arial,Helvetica,sans-serif;
+}
+
+input.empezar
+{
+
+    position: absolute;
+    right: 45%;
+    width: 200px;
+    height: 100px;
+}
+
+div.imagen
+{
+
+    position: absolute;
+    top: 25%;
+}
+
+div.puntajesD
+{
+    
+    position: absolute;
+    right: 10%;
+    top: 0%;
+    font-size:20px;
+    font-family:Arial,Helvetica,sans-serif;
+    color: white;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}

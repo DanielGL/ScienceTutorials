@@ -1,0 +1,63 @@
+<!-- Hoja de estilo para campos requeridos e invalidos -->
+.ButtonStyle {background-color:#1560BD;color:white;font-weight: bold;}
+.Regresar {background-color:grey;color:white;font-weight: bold;}
+legend {background-color:grey;color:white;border:1px;text-align:center;}
+a {background-color:white;color:#007BA7;border:1px;font-weight: bold;}
+fieldset {text-align:justified;background-color:white;}
+
+body {
+	background-image:url('Background3.png');
+	background-size: 100% auto;
+}
+
+input.req {
+background-color: white;
+	border: 2px black inset;
+}
+
+
+select.req {background-color: white;
+	border: 2px black inset;  
+}
+
+tablaInicio{
+	margin-left: auto;
+	margin-right: auto;
+	}
+
+textarea.req {
+background-color: white;
+	border: 2px black inset;
+}
+
+h3 {background-color:#DCDCDC;color:black;text-align:center;}
+h2 {background-color:#1560BD;color:white;text-align:center;}
+label.req {
+color: black;
+font-weight: normal;
+}
+label.opc {
+color: black;
+font-weight: normal;
+}
+
+
+input.invalid {
+background-color: white;
+	border: 2px red inset;
+}
+
+
+select.invalid {background-color: white;
+ border: 2px red inset;
+}
+textarea.invalid {
+background-color: white;
+	border: 2px red inset;
+}
+
+
+label.invalid {
+	color: #F00;
+font-weight: bold;
+}

@@ -1,0 +1,45 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!-- Archivo que contiene el menu para maestros sin privilegios de administrador -->
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Menu Principal</title>
+<link rel="stylesheet" type="text/css" href="Estilos.css">
+<link href="SpryAssets/SpryMenuBarHorizontal.css" rel="stylesheet" type="text/css" />
+<script src="SpryAssets/SpryMenuBar.js" type="text/javascript"></script>
+
+</head>
+
+<body>
+<ul id="MenuBar1" class="MenuBarHorizontal">
+  <li><a href="Inicio.php">Inicio</a></li>
+  <li><a href="#" class="MenuBarItemSubmenu">Juego en Equipos</a>
+    <ul>
+      <li><a href="./MaratonA/juegoequipo.php">Iniciar Juego</a></li>
+      <li><a href="CrearEquipo.php">Crear Equipo</a></li>
+      <li><a href="ModificarEquipo.php">Modificar Equipo</a></li>
+      <li><a href="BorrarEquipo.php">Borrar Equipo</a></li>
+       <li><a href="ConsultarEquipo.php">Consultar Equipo</a></li>
+    </ul>
+  </li>
+  <li class="MenuBarHorizontal"><a class="MenuBarItemSubmenu" href="#">Alumnos</a>
+    <ul>
+      <li><a href="CrearAlumnos.php">Nueva Lista</a></li>
+      <li><a href="VerListas.php">Ver Listas</a></li>
+      <li><a href="BorrarAlumnos.php">Borrar Alumnos</a></li>
+      <li><a href="ConsultarHistorialMaestro.php">Historiales</a></li>
+    </ul>
+  </li>
+  <li><a href="#" class="MenuBarItemSubmenu">Configuracion</a>
+    <ul>
+      <li><a href="CambiaContrasenia.php">Cambiar Contrase&ntilde;a</a></li>
+      <li><a href="logout.php">Cerrar Sesion</a></li>
+    </ul>
+  </li>
+</ul>
+<p>&nbsp; </p>
+<script type="text/javascript">
+var MenuBar1 = new Spry.Widget.MenuBar("MenuBar1", {imgDown:"SpryAssets/SpryMenuBarDownHover.gif", imgRight:"SpryAssets/SpryMenuBarRightHover.gif"});
+</script>
+</body>
+</html>

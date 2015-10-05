@@ -1,0 +1,65 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!-- Archivo que contiene el menu para el super administrador -->
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Menu Principal</title>
+<link rel="stylesheet" type="text/css" href="Estilos.css">
+<link href="textos.css" rel="stylesheet" type="text/css" />
+<link href="SpryAssets/SpryMenuBarHorizontal.css" rel="stylesheet" type="text/css" />
+<script src="SpryAssets/SpryMenuBar.js" type="text/javascript"></script>
+
+</head>
+
+<body>
+<ul id="MenuBar1" class="MenuBarHorizontal">
+  <li><a href="Inicio.php">Inicio</a></li>
+  <li><a href="#" class="MenuBarItemSubmenu">Maestro</a>
+    <ul>
+      <li><a href="CrearMaestro.php">Nuevo</a></li>
+      <li><a href="ModificarMaestro.php">Modificar</a></li>
+      <li><a href="BorrarMaestro.php">Borrar</a></li>
+      <li><a href="ConsultarMaestro.php">Consultar</a></li>
+    </ul>
+  </li>
+  <li><a class="MenuBarItemSubmenu" href="#">Materia</a>
+    <ul>
+      <li><a class="MenuBarItemSubmenu" href="#">Nuevo</a>
+        <ul>
+          <li><a href="CrearMateria.php">Materia</a></li>
+          <li><a href="CrearGrupo.php">Grupo</a></li>
+        </ul>
+      </li>
+      <li><a href="#" class="MenuBarItemSubmenu">Modificar</a>
+        <ul>
+          <li><a href="ModificarMateria.php">Materia</a></li>
+          <li><a href="ModificarGrupo.php">Grupo</a></li>
+        </ul>
+      </li>
+      <li><a href="#" class="MenuBarItemSubmenu">Borrar</a>
+        <ul>
+          <li><a href="BorrarMateria.php">Materia</a></li>
+          <li><a href="BorrarGrupo.php">Grupo</a></li>
+        </ul>
+      </li>
+      <li><a href="#" class="MenuBarItemSubmenu">Consultar</a>
+        <ul>
+          <li><a href="ConsultarMateria.php">Materia</a></li>
+          <li><a href="ConsultarGrupo.php">Grupo</a></li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li><a href="#" class="MenuBarItemSubmenu">Configuracion</a>
+    <ul>
+      <li><a href="CambiaContrasenia.php">Cambiar Contrase&ntilde;a</a></li>
+      <li><a href="logout.php">Cerrar Sesion</a></li>
+    </ul>
+  </li>
+</ul>
+<p>&nbsp; </p>
+<script type="text/javascript">
+var MenuBar1 = new Spry.Widget.MenuBar("MenuBar1", {imgDown:"SpryAssets/SpryMenuBarDownHover.gif", imgRight:"SpryAssets/SpryMenuBarRightHover.gif"});
+</script>
+</body>
+</html>
